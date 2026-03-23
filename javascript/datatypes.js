@@ -65,3 +65,36 @@ let items = [
 let totalitem = items.reduce((sum, item) => sum + item.price, 0);
 console.log("Total Price:", totalitem);
 
+// Question 5 :
+let Data = {
+    nam : 'Gokul',
+    age : 27
+}
+console.log("My name is "+ Data.nam + " and I am "+ Data.age+ " Years old")
+
+// Question 6 :
+let a = 10;
+let b = "20";
+console.log("Result: " + (a + b));
+
+// Question 7 :
+let value = true;
+console.log(typeof value)
+
+// Question 8 :
+let num = "50";
+let ans = num * 2
+console.log(ans)
+
+// Question 9 :
+let arr = ["Gokul", 27, true]
+console.log(arr[0],arr[1],arr[2])
+
+// Question 10 :
+let student = {
+    name: "Gokul",
+    marks: [80, 90, 100]
+}
+let datePerson = student.marks[0] + student.marks[1] + student.marks[2];
+console.log('My Name is '+ student.name + ' and my totel mark is '+ datePerson)
+
